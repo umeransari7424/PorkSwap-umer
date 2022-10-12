@@ -1,0 +1,103 @@
+.footer-bg{
+  background-color: #12436b;
+  color: white;
+  
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  // .footer{
+  //   display: flex;
+  //   flex-direction: column;
+  // }
+}
+
+nav{
+  background-color: #113f65 !important;
+  .nav-link{
+    color: white !important;
+  }
+}
+
+
+.hero-bg{
+  background-image: url("Media/porkswap.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+}
+
+
+.plateformbg{
+  background-image: url("Media/product-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+
+  .interface{
+    color: #fc5b50;
+  }
+
+
+}
+.interface{
+  color: #fc5b50;
+}
+
+
+.governance-platform{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.utils-bg{
+  background-color: #f3f7fa;
+  .utils-card{
+    min-height: 300px !important;
+  }
+}
+
+.comparison-bg{
+  background-image: url("Media/comparison.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  
+}
+// .styles_faq-row-wrapper__3vA1D{
+//   padding-bottom: 15px !important;
+// }
+// .styles_faq-row__2YF3c {
+//   display: flex !important;
+//   justify-content: space-between ;
+//   padding: 5px 0;
+//   border-bottom: 15px black !important;
+// }
+
+.defla-card{
+  
+    min-height: 430px !important;
+    border: none!important;
+    
+  
+}
+.styles_faq-row-wrapper__3vA1D .styles_faq-row__2YF3c {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
+  border-bottom: 10px solid #F4F7FD !important;
+}
+
+.defla-card1{
+  box-shadow: 0 6px 20px !important;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_no-tabfocus__1HmyD {
+  outline: none;
+  padding: 20px !important;
+}
+
+
