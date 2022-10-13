@@ -16,30 +16,30 @@ function Utils() {
 
         </div> <br /> <br />
       <div className="row">
-        <div className="col">
+        <div className="col py-4">
         <div className='text-start card utils-card p-3'>
              <img className='img-fluid' width={"100px"} src="Assets/u1.png" alt="U1" />
-             <b>Governance</b> <br />
+             <b>Governance</b>  <br />
              <p>
              Vote to modify underlying protocol, change in pricing oracle, futures funding rate, platform fees, list/de-list tokens, new features
              </p>
 
          </div>
         </div>
-        <div className="col">
+        <div className="col py-4">
         <div className='text-start card utils-card p-3'>
              <img className='img-fluid' width={"85px"} src="Assets/u2.png" alt="U2" /> 
-             <b>Incentive</b> <br />
+             <b>Incentive</b>   <br />
              <p>
              Liquidity providers will be incentivized in $PSWAP for their participation in spot and leverage liquidity pools, and LP tokens can be staked for ARR of around 125%.
              </p>
 
          </div>
         </div>
-        <div className="col">
+        <div className="col py-4">
         <div className='text-start card utils-card p-3'>
              <img className='img-fluid' width={"85px"} src="Assets/u3.png" alt="U3" /> 
-             <b>Deflation</b> <br />
+             <b>Deflation</b>   <br />
              <p>
              With a fixed supply of 1 million tokens, and only 200,000 in circulation, $PSWAP token will increase in value overtime since it'll be scarce and the team will buy back and burn tokens from platform revenue generated through spot and futures trading
              </p>

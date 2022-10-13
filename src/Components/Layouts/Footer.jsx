@@ -1,6 +1,6 @@
 import React from "react";
 import { BsTwitter } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF ,FaMediumM} from "react-icons/fa";
 import { TiSocialYoutubeCircular } from "react-icons/ti";
 import { BsTelegram } from "react-icons/bs";
 function Footer() {
@@ -21,10 +21,11 @@ function Footer() {
           <div className="col"></div>
           <div className="col">
           <div>
+            <FaMediumM size={"40px"}/>&nbsp;&nbsp;
                <BsTwitter size={"40px"}/>
                <FaFacebookF size={"40px"}/>
                <TiSocialYoutubeCircular size={"50px"}/> &nbsp;
-               <BsTelegram size={"40px"}/>
+               <BsTelegram size={"40px"}/>&nbsp;
              </div> <br />
 
              <div>

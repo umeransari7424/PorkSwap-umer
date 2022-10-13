@@ -6,10 +6,7 @@
     text-decoration: none;
     color: white;
   }
-  // .footer{
-  //   display: flex;
-  //   flex-direction: column;
-  // }
+ 
 }
 
 nav{
@@ -56,7 +53,7 @@ nav{
 .utils-bg{
   background-color: #f3f7fa;
   .utils-card{
-    min-height: 300px !important;
+    min-height: 370px !important;
   }
 }
 
@@ -99,5 +96,67 @@ nav{
   outline: none;
   padding: 20px !important;
 }
+.tokenbg{
+  background-image: url("Media/tokenframe.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.token{
+  position: relative;
+  background-image: url("Media/token-base.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  max-width: 73.125rem;
+  margin: 0 auto 2.5rem;
+  
+  width: 100%;
+  height: 18.75rem;
+  .team-locked{
+    top: 40px;
+    right: 0;
+    position: absolute;
+    color: #424242;
+    width: 10.9375rem;
+  }
+  .liquidity{
+    top: 40px;
+    left: 0;
+    position: absolute;
+    color: #424242;
+    width: 10.50rem;
+  }
+  .public{
+    
+    bottom: 110px;
+    right: -12%;
+    position: absolute;
+      color: #424242;
+      width: 10.9375rem;
+  }
+  .growth{
+    bottom: 110px;
+    left: -11%;
+    position: absolute;
+      color: #424242;
+      width: 10.9375rem;
+  }
+  
+}
+
+.token::before{
+    right: 0;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("Media/token-hover.png");
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+
 
 

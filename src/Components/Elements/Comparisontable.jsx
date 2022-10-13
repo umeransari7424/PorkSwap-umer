@@ -106,13 +106,17 @@ function Comparisontable() {
             <tr>
               <th scope="row">Gas Fees</th>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+                <span className="text-success">$71.53</span>
+                {/* <BsCheckLg fas icon="check"   >$71.53</BsCheckLg> */}
               </td>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+
+              <span className="text-danger">$0.42</span>
+                {/* <BsCheckLg fas icon="check" className="text-success" />  */}
               </td>
               <td>
-                <BsCheckLg fas icon="check" className="text-success" />
+              <span className="text-success"><b>$0.42</b></span>
+                {/* <BsCheckLg fas icon="check" className="text-success" /> */}
               </td>
             </tr>
             <tr>
@@ -124,7 +128,7 @@ function Comparisontable() {
                 <BsCheckLg fas icon="times" className="text-danger" />
               </td>
               <td>
-                <BsCheckLg fas icon="times" className="text-success" />
+                <ImCancelCircle fas icon="times" className="text-success" />
               </td>
             </tr>
             <tr>

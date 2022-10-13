@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.css";
 function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg py-4">
         <div className="container">
-          <img src="Assets/logo.png" width={"110px"} alt="Quant Network" />
+          <img src="Assets/logo.png" width={"190px"} alt="PorkSwap" />
 
           <button
             className="navbar-toggler"
