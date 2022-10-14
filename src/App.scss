@@ -11,6 +11,8 @@
 
 nav{
   background-color: #113f65 !important;
+  position: relative;
+  z-index: 8;
   .nav-link{
     color: white !important;
   }
@@ -21,11 +23,19 @@ nav{
   background-image: url("Media/porkswap.png");
   background-repeat: no-repeat;
   background-size: cover;
+  // height: 100%;
   color: white;
 
 }
-
-
+.position-relative {
+  position: relative !important;
+  z-index: 5 !important;
+}
+.position-absolute {
+  position: absolute !important;
+  bottom: 0 !important;
+  z-index: -1 !important;
+}
 .plateformbg{
   background-image: url("Media/product-bg.png");
   background-repeat: no-repeat;
@@ -64,15 +74,7 @@ nav{
   color: black;
   
 }
-// .styles_faq-row-wrapper__3vA1D{
-//   padding-bottom: 15px !important;
-// }
-// .styles_faq-row__2YF3c {
-//   display: flex !important;
-//   justify-content: space-between ;
-//   padding: 5px 0;
-//   border-bottom: 15px black !important;
-// }
+
 
 .defla-card{
   
@@ -113,35 +115,80 @@ nav{
   width: 100%;
   height: 18.75rem;
   .team-locked{
-    top: 40px;
+    top: 49px;
     right: 0;
     position: absolute;
     color: #424242;
-    width: 10.9375rem;
-  }
-  .liquidity{
-    top: 40px;
-    left: 0;
+    width: 10.9375rem;}
+    .liquidity{
+      top: 47px;
+      left: 20;
+      position: absolute;
+      color: #424242;
+      width: 10.50rem;
+    }
+    .public{
+    
+      bottom: 115px;
+      right: -10%;
+      position: absolute;
+        color: #424242;
+        width: 10.9375rem;
+    }
+    .growth{
+      bottom: 115px;
+      left: -11%;
+      position: absolute;
+        color: #424242;
+        width: 10.9375rem;
+    }
+  } 
+
+@media screen and (max-width: 600px) {
+  .token{
+    position: relative;
+    background-image: url("Media/token-base.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+    max-width: 73.125rem;
+    margin: 0 auto 2.5rem;
+    
+    width: 100%;
+    height: 18.75rem;
+    .team-locked{
+      top: 73px;
+    right: 0;
     position: absolute;
     color: #424242;
-    width: 10.50rem;
-  }
-  .public{
-    
-    bottom: 110px;
-    right: -12%;
+    width: 6.9375rem;
+    font-size: 10px;
+    }
+    .liquidity{
+    top: 71px;
+    left: 20;
     position: absolute;
-      color: #424242;
-      width: 10.9375rem;
-  }
-  .growth{
-    bottom: 110px;
+    color: #424242;
+    width: 7.5rem;
+    font-size: 10px;
+    }
+    .public{  
+    bottom: 130px;
+    right: -4%;
+    position: absolute;
+    color: #424242;
+    width: 4.9375rem;
+    font-size: 10px;
+    }
+    .growth{
+    bottom: 130px;
     left: -11%;
     position: absolute;
-      color: #424242;
-      width: 10.9375rem;
-  }
-  
+    color: #424242;
+    width: 7.9375rem;
+    font-size: 10px;
+      }
+    } 
 }
 
 .token::before{

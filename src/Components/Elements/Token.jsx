@@ -20,25 +20,25 @@ function Token() {
                 <div>
 
                 <div className="text-center">
-                  <h5>50%</h5>
-                  <b>Liquidity Rewards <br /> (Locked)</b>
+                  <strong>50% <br />
+                  Liquidity Rewards <br /> (Locked)</strong>
                 </div>
 
                 <div className="team-locked">
-                  <h5>10%</h5>
-                  <b>Team-Locked</b>
+                  <strong>10% <br />
+                  Team-Locked</strong>
                 </div>
                 <div className="liquidity">
-                  <h5>10%</h5>
-                  <b>Liquidity</b>
+                  <strong>10% <br />
+                  Liquidity</strong>
                 </div>
                 <div className="growth">
-                  <h5>10%</h5>
-                  <b>Growth Hacking</b>
+                  <strong>10% <br />
+                  Growth Hacking</strong>
                 </div>
                 <div className="public">
-                  <h5>20%</h5>
-                  <b>Public State</b>
+                  <strong>20% <br />
+                  Public State</strong>
                 </div>
                 </div>
               </div>

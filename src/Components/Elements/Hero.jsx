@@ -1,11 +1,18 @@
 import React from "react";
-// import Particles from "react-particles";
+import Particle from "../Config/Particles";
+// import Particls from "../Config/particls";
+// import tsparticles from 
+
 
 
 function Hero() {
   return (
-    <div className="hero-bg">
+    <div className="hero-bg position-relative">
       
+      <div className="position-absolute">
+        <Particle />
+        {/* <Particls /> */}
+      </div>
      
         
       <div class="container text-center py-5">
